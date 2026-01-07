@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+body{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50,-50)
+}
+.progress-bar{
+	display:flex;
+	gap:10px;
+	padding:10px;
+}
+.circle{
+	border:2px solid black;
+	border-radius:50%;
+	height:30px;
+	width:30px;
+}
+.btn{
+	height:30px;
+	width:auto;
+	margin:30px;
+	background-color:lightskyblue;
+	border-radius:25px;
+}
+
+.list{
+	background-color:red;
+}
+
+.active{
+	background-color:red;
+}
